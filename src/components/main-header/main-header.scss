@@ -1,0 +1,97 @@
+.main-header {
+  display: flex;
+  transition: $delay;
+
+  @media(max-width: 600px) {
+    min-height: 60px;
+  }
+
+  &_sticky {
+    background: darken(#00bff3, 5%);
+    min-height: 60px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 12px;
+    max-width: 797px;
+    width: 100%;
+
+    @media(max-width: 1365px) {
+      margin-right: 0;
+    }
+
+    @media(max-width: 1099px) {
+      max-width: 600px;
+    }
+
+    @media(max-width: 839px) {
+      display: none;
+    }
+  }
+
+  &__nav {
+
+    @media(max-width: 1365px) {
+      padding-top: 1px;
+    }
+
+    @media(max-width: 839px) {
+      display: none;
+    }
+  }
+
+  &__auth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 302px;
+    width: 100%;
+
+    @media(max-width: 1099px) {
+      max-width: 250px;
+    }
+
+    @media(max-width: 839px) {
+      display: none;
+    }
+
+    &-link {
+      color: $blue;
+      padding: 13px 28px;
+
+      &:hover {
+        color: white;
+      }
+
+      @media(max-width: 1099px) {
+        padding: 13px;
+      }
+    }
+  }
+
+  &__menu-toggle {
+    display: none;
+
+    @media(max-width: 839px) {
+      display: block;
+    }
+  }
+
+  &__dropdown {
+    display: none;
+
+    @media(max-width: 839px) {
+      display: block;
+    }
+  }
+
+}

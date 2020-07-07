@@ -1,0 +1,156 @@
+.how-it-works {
+  background: #FBFBFD;
+  padding: 95px 0 104px;
+
+  @media(max-width: 991px) {
+    padding: 50px 0;
+  }
+
+  &__step {
+    padding: 90px 0 138px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 862px;
+    margin: 0 auto;
+    padding-right: 5px;
+
+    &-info {
+      max-width: 250px;
+      margin-top: -28px;
+    }
+
+    &-description {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: $black;
+
+      @media(max-width: 991px) {
+        font-size: 16px;
+      }
+
+      @media(max-width: 767px) {
+        font-size: 14px;
+      }
+
+      @media(max-width: 575px) {
+        line-height: 1.2;
+      }
+    }
+
+    &-image {
+      @media (max-width: 991px) {
+        width: 30%;
+      }
+
+      @media (max-width: 767px) {
+        width: 35%;
+      }
+
+      @media (max-width: 575px) {
+        width: 50%;
+      }
+    }
+  }
+}
+
+.step {
+
+  &-two {
+    padding: 47px 0 47px 57px;
+    flex-direction: row-reverse;
+    max-width: 1083px;
+
+    .how-it-works__step-info {
+      max-width: 390px;
+      margin-top: -42px;
+    }
+  }
+
+  &-three {
+    padding: 105px 0 105px 14px;
+    max-width: 926px;
+
+    .how-it-works__step-info {
+      max-width: 390px;
+      margin-top: 0;
+    }
+  }
+
+  &-four {
+    flex-direction: row-reverse;
+    padding: 59px 0 59px 78px;
+    max-width: 1096px;
+
+    .how-it-works__step-info {
+      max-width: 500px;
+      margin-top: -40px;
+    }
+  }
+
+  &-five {
+    padding: 70px 0 70px 36px;
+    max-width: 922px;
+
+    .how-it-works__step-info {
+      max-width: 500px;
+      margin-top: -6px;
+    }
+  }
+
+
+  &-one,
+  &-three,
+  &-five {
+    @media (max-width: 991px) {
+      flex-direction: column-reverse;
+      padding: 40px 0;
+    }
+
+    @media (max-width: 575px) {
+      flex-direction: column-reverse;
+      padding: 30px 0;
+    }
+
+    .how-it-works__step-info {
+
+      @media (max-width: 991px) {
+        max-width: 100%;
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      @media (max-width: 575px) {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  &-two,
+  &-four {
+    @media (max-width: 991px) {
+      flex-direction: column-reverse;
+      padding: 40px 0;
+    }
+
+    @media (max-width: 575px) {
+      flex-direction: column-reverse;
+      padding: 30px 0;
+    }
+
+    .how-it-works__step-info {
+
+      @media (max-width: 991px) {
+        max-width: 100%;
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      @media (max-width: 575px) {
+        margin-top: 20px;
+      }
+    }
+  }
+}
