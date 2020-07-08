@@ -1,6 +1,6 @@
 .how-it-works {
   background: #FBFBFD;
-  padding: 95px 0 104px;
+  padding: 95px 0 80px;
 
   @media(max-width: 991px) {
     padding: 50px 0;
@@ -46,7 +46,7 @@
         color: #F2F2FA;
         margin-left: -75px;
         margin-top: -25px;
-        //opacity: 0.4;
+        opacity: 0.5;
       }
     }
 
@@ -112,7 +112,6 @@
         margin-left: -97px;
       }
     }
-
   }
 
   &-three {
@@ -188,7 +187,6 @@
     .how-it-works__step-image {
       margin-top: -16px;
     }
-
   }
 
 
@@ -293,7 +291,6 @@
     }
   }
 }
-
 
 .recruiter-works {
   padding: 98px 0 94px;
@@ -457,5 +454,4 @@
       }
     }
   }
-
 }

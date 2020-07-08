@@ -70,6 +70,10 @@
     .scroll-up__text {
       color: darken($blue,10%);
 
+      @media(max-width: 767px) {
+        color: transparent;
+      }
+
       &:before {
         border-color: darken($blue,10%);
         border-left-color: transparent;
