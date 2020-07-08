@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding-right: 15px;
+    position: relative;
 
     @media(max-width: 1365px) {
       padding-right: 0;
@@ -31,12 +32,19 @@
       max-width: 600px;
     }
 
+    @media(max-width: 991px) {
+      max-width: 100%;
+    }
+
     &-image {
-      margin-top: 28px;
+      position: absolute;
+      top: 176px;
+      right: 13px;
 
       @media(max-width: 1199px) {
         align-self: center;
         margin-bottom: 50px;
+        position: static;
       }
 
       @media(max-width: 991px) {

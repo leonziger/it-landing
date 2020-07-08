@@ -121,6 +121,9 @@
     }
 
     &-icon {
+      height: 45px;
+      display: flex;
+      align-items: flex-end;
       margin-bottom: 16px;
     }
 
@@ -136,5 +139,13 @@
         line-height: 1.4;
       }
     }
+  }
+}
+
+.recruiter-banner {
+  padding: 99px 0 135px;
+
+  @media(max-width: 991px) {
+    padding: 50px 0;
   }
 }
