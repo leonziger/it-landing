@@ -116,6 +116,10 @@
     width: 32%;
     margin-bottom: 16px;
 
+    @media(max-width: 991px) {
+      border: 1px solid lighten($lightgray, 30%);
+    }
+
     @media(max-width: 767px) {
       width: 100%;
     }

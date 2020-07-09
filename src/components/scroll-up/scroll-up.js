@@ -1,6 +1,5 @@
 import $ from 'jquery';
 
-
 $(window).scroll(function (){
   if ($(this).scrollTop() > 0){
     $('.scroll-up').fadeIn();

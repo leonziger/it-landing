@@ -1,7 +1,7 @@
 .scroll-up {
   display: none;
   position: fixed;
-  right: 20px;
+  left: 20px;
   bottom: 20px;
   cursor: pointer;
   z-index: 50;
@@ -13,17 +13,13 @@
   opacity: 0.8;
 
   @media(max-width: 1399px) {
-    bottom: 150px;
-  }
-
-  @media(max-width: 991px) {
-    bottom: 90px;
+    bottom: 100px;
   }
 
   @media(max-width: 767px) {
     height: 60px;
     width: 60px;
-    bottom: 120px;
+    bottom: 20px;
 
     .scroll-up__text {
       color: transparent;
@@ -39,8 +35,8 @@
   }
 
   @media(max-width: 575px){
-    right: 10px;
-    bottom: 150px;
+    left: 10px;
+    bottom: 10px;
   }
 
   &__text{
