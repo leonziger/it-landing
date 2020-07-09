@@ -253,3 +253,8 @@
     }
   }
 }
+
+body.menu-open.auth-open,
+body.auth-open.menu-open {
+  overflow: hidden;
+}
