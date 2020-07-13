@@ -10,4 +10,3 @@ if (menuToggle.length > 0) {
     $('body').toggleClass('menu-open');
   });
 }
-
