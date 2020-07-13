@@ -126,3 +126,12 @@
 .answer {
   display: block;
 }
+
+.recruiter-faq {
+  &__vantages {
+    &-image {
+      top: 30px;
+    }
+  }
+
+}
