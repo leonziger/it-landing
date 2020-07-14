@@ -1,5 +1,6 @@
 window.$ = window.jQuery = require('jquery');
 
+import './components/form-styler/form-styler';
 import './components/menu-toggle/menu-toggle';
 import './components/dropdown/dropdown';
 import './components/faq/faq';
