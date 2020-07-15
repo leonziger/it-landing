@@ -28,6 +28,8 @@
   }
 
   &.dropdown.opened {
+    z-index: 999 !important;
+
     .jq-selectbox__trigger-arrow {
       top: 19px;
       border-bottom: 6px solid $black;
@@ -74,6 +76,10 @@
     &-text {
       color: $black;
       font: 400 16px/1.4 'Inter', sans-serif;
+
+      @media(max-width: 767px) {
+        overflow: auto;
+      }
     }
 
     @media(max-width: 767px) {

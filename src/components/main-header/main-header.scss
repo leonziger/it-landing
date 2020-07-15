@@ -32,6 +32,10 @@
 
   &__logo {
 
+    @media(max-width: 767px) {
+      margin-left: -12px;
+    }
+
     &-icon {
       @media(max-width: 839px) {
         height: 50px;
@@ -225,7 +229,7 @@
     margin: 0;
     z-index: 200;
     border: none;
-    min-width: 160px;
+    min-width: 375px;
     width: 50%;
     max-width: 900px;
     text-align: center;
@@ -236,7 +240,7 @@
     padding-top: 67px;
 
     &.open {
-      left: 50%;
+      left: unset;
       right: 0;
       top: 60px;
       bottom: 0;
@@ -255,13 +259,6 @@
           text-decoration: none;
           border: none;
         }
-
-        & > a.main-header__auth-link {
-          @media(max-width: 479px) {
-            font-size: 14px;
-            margin-top: 6px;
-          }
-        }
       }
     }
   }
@@ -274,7 +271,8 @@
   }
 }
 
-body.menu-open.auth-open,
-body.auth-open.menu-open {
-  overflow: hidden;
+body.auth-open {
+  @media(max-width: 375px) {
+    overflow: hidden;
+  }
 }
